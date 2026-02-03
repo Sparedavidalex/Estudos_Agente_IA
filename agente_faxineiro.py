@@ -9,8 +9,10 @@ from flask import Flask
 app = Flask(__name__)
 
 # === CONFIGURAÇÕES ===
-TOKEN_TELEGRAM = "8455599242:AAHflJ9wzlxZ2cy5c4rL7UNJKnrfPF_53ik" 
-ID_TELEGRAM = "1641042119"
+TELEGRAM_TOKEN=seu_token_aqui
+TELEGRAM_CHAT_ID=seu_id_aqui
+
+
 
 LIMITE_TEMP = 80  
 LIMITE_RAM = 70   # Seu novo gatilho
